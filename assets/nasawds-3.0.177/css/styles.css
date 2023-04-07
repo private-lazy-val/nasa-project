@@ -8876,11 +8876,11 @@ html.usa-js-loading .usa-nav__submenu.usa-megamenu {
     transition: opacity .15s ease-in-out
 }
 
-.usa-modal-wrapper.is-hidden {
+/* .usa-modal-wrapper.is-hidden {
     visibility: hidden;
     opacity: 0;
     position: fixed
-}
+} */
 
 .usa-modal-wrapper.is-visible {
     visibility: visible;
@@ -13151,7 +13151,10 @@ input[type=search] {
 }
 
 .height-viewport {
-    height: 100vh
+    height: 100svh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .flex-justify-center {
