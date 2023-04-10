@@ -240,13 +240,6 @@
 
         <!-- Modal -->
         <div class="margin-y-3">
-            <a
-                href="#"
-                class="usa-button margin-right-0"
-                aria-controls="modal"
-                data-open-modal
-                >Оставить заявку</a
-            >
             <div
                 class="usa-modal"
                 id="modal"
@@ -281,14 +274,13 @@
                                 <legend class="usa-legend padding-top-205">
                                     Выберите планеты, которые хотели бы посетить
                                 </legend>
-                                <div class="usa-checkbox">
+                                <div class="usa-checkbox" required>
                                     <input
                                         type="checkbox"
                                         name="planet"
                                         id="mercury"
                                         value="mercury"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="mercury"
@@ -301,7 +293,6 @@
                                         id="venus"
                                         value="venus"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="venus"
@@ -314,7 +305,6 @@
                                         id="earth"
                                         value="earth"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="earth"
@@ -327,7 +317,6 @@
                                         id="mars"
                                         value="mars"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="mars"
@@ -340,7 +329,6 @@
                                         id="saturn"
                                         value="saturn"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="saturn"
@@ -353,7 +341,6 @@
                                         id="uranus"
                                         value="uranus"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="uranus"
@@ -366,7 +353,6 @@
                                         id="neptune"
                                         value="neptune"
                                         class="usa-checkbox__input"
-                                        required
                                     />
                                     <label
                                         for="neptune"
@@ -451,7 +437,7 @@
                             role="img"
                         >
                             <use
-                                xlink:href="/assets/nasawds-3.0.177/img/usa-icons/close.svg"
+                                xlink:href="assets/nasawds-3.0.177/img/sprite.svg#close"
                             ></use>
                         </svg>
                     </button>
